@@ -1,0 +1,52 @@
+.section4-outer-container {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.section4-inner-container {
+    width: 70%;
+}
+
+.section4-top-text {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+    color: #3E82FC;
+}
+
+.section4-second-text {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #05060A;
+    margin-top: 10px;
+}
+
+.section4-icons-top {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.section4-icons-bottom {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+    /* width: 50%; */
+}
+
+.section4-tripraja-icon {
+    margin-right: 100px;
+}
