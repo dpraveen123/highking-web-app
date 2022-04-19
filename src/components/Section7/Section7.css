@@ -7,6 +7,7 @@
     padding-left: 10%;
     padding-right: 10%;
     padding-bottom: 5%;
+
 }
 
 .section7-inner-container-headings {
@@ -35,7 +36,8 @@
 }
 
 .section7-slider-outer {
-    width: 726px;
+    margin-left: 0px;
+    width: 700px !important;
     height: 394px;
     left: calc(50% - 726px/2);
     top: calc(50% - 394px/2 + 38px);
@@ -46,15 +48,20 @@
     box-shadow: 0px 54px 104px rgba(0, 0, 0, 0.04);
     border-radius: 140px 0px;
 
+
     /* text-align: center; */
 }
 
 .section7-slider-inner {
+
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     margin-top: 30px;
+    margin-left: 20px;
+    /* background-image: url("../../assets/images/slider bg.jpeg"); */
+    /* background-size: cover; */
 }
 
 .section7-text1 {
