@@ -5,6 +5,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import image from '../../assets/images/profile image.png'
 import star from '../../assets/icons/Star.svg'
+import quote from '../../assets/icons/camas.svg'
 var SampleNextArrow = (props) => {
     const { className, style, onClick } = props;
     return (
@@ -108,7 +109,7 @@ var settings = {
         }
     ]
 };
-class Section7 extends Component {
+export default class Section7 extends Component {
     constructor(props) {
         super(props);
         this.state = {
@@ -119,11 +120,10 @@ class Section7 extends Component {
     render() {
 
         return (
-            <div className='section7-outer-container'>
-                <div className='section7-inner-container-headings'>
-                    <p className='section7-inner-text1'>Happy Hikers</p>
-                    <p className='section7-inner-text2'>Client’s Say About Us</p>
-                </div>
+            <div className='section7-container'>
+                <div className='section7-header-content'>Happy Hikers</div>
+                <div className='section7-heading' >Client’s Say About Us</div>
+                
                 <div className='section7-slider'>
                     <Slider {...settings}  >
                         {
@@ -132,10 +132,9 @@ class Section7 extends Component {
                                 return (
                                     <div className='section7-slider-outer'>
                                         <div className='section7-slider-inner'>
-                                            <div>
-
-
-                                                <img src={image}></img>
+                                            <div className='section7-card'>
+                                            <img className='section7-quotes' src={quote}></img>
+                                            <img src={image}></img>
                                             </div>
                                             <div>
                                                 <p className='section7-text1'>Omar Gouse</p>
@@ -165,5 +164,3 @@ class Section7 extends Component {
         );
     }
 }
-
-export default Section7;
